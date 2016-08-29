@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="xyz.fayadh.buissnesscardapp.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Western University"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:background="#502E84"
+        android:textColor="#FFF"
+        android:textAllCaps="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/image12"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageview1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="An ancient university, in London Ontario. Specializing in complex research."
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:background="#502E84"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Contact: 5192803971 \nwestern@uwo.ca"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:background="#502E84"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Western University, London, Ontario, CA"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:background="#502E84"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Learn More"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:background="#502E84"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
