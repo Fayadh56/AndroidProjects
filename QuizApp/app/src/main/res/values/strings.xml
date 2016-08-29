@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quote1">Welcome to my QuizApp, which tests your knowledge on quotes.</string>
+    <string name="quote2">\“Don\'t cry because it\'s over, smile because it happened.\”</string>
+    <string name="quote3">“Be yourself; everyone else is already taken.”</string>
+    <string name="quote4">“So many books, so little time.”</string>
+    <string name="quote5">“You only live once, but if you do it right, once is enough.”</string>
+    <string name="quote6">“You know nothing Jon Snow.”</string>
+    <string name="quote7">“A friend is someone who knows all about you and still loves you.”</string>
+    <string name="qupte8">“We accept the love we think we deserve.” </string>
+    <string name="name">So what is your name?</string>
+</resources>
